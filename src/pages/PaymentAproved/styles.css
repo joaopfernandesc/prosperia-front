@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  width: 360px;
+  height: 640px;
+  background: linear-gradient(204.79deg, #8AA965 0%, #155437 100%);
+}
+
+.retangulo-superior {
+  width: 360px;
+  height: 100px;
+  background-color: #8AA965;
+}
+
+.x {
+  margin-top: 39px;
+  margin-left: 15px;
+  width: 24px;
+  height: 24px;
+}
+
+.aprovado {
+  width: 185px;
+  height: 17px;
+  margin-left: 94px;
+  margin-top: -25px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Montserrat, serif;
+}
+
+.aprovado_img {
+  width: 209px;
+  height: 209px;
+  margin-top: 100px;
+  margin-left:75.5px;
+}
+
+.log {
+  width: 327px;
+  height: 22px;
+  margin-top: 80px;
+  margin-left: 16.5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.log_desc {
+  width: 241px;
+  height: 34px;
+
+  margin-top: 20px;
+  margin-left: 59.5px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
