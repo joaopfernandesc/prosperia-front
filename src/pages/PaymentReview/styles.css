@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  width: 360px;
+  height: 640px;
+}
+
+.retangulo-superior {
+  width: 360px;
+  height: 100px;
+  background-color: #8AA965;
+}
+
+.seta {
+  margin-top: 39px;
+  margin-left: 15px;
+  width: 24px;
+  height: 24px;
+}
+
+.revisar {
+  width: 133px;
+  height: 17px;
+  margin-left: 121px;
+  margin-top: -25px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Montserrat, serif;
+}
+
+.detalhe {
+  color: #232323;
+  font-family: Montserrat, serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 31px;
+  margin-left: 14px;
+}
+
+.cafeteira {
+  margin-top: 20px;
+  margin-left: 15px;
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat, serif;
+}
+
+.preco-cafeteira {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat, serif;
+  margin-left: 281px;
+  color: #232323;
+  margin-top: -19px;
+}
+
+.imposto {
+  margin-top: 10px;
+  margin-left: 15px;
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat, serif;
+}
+
+.preco-imposto{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Montserrat, serif;
+  margin-left: 294px;
+  color: #232323;
+  margin-top: -19px;
+}
+
+.total {
+  margin-top: 25px;
+  margin-left: 14px;
+  color: #232323;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Montserrat, serif;
+}
+
+.preco-total{
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Montserrat, serif;
+  margin-left: 276px;
+  color: #232323;
+  margin-top: -19px;
+}
+
+.linha1 {
+  width: 330px;
+  height: 1px;
+  background-color: #c4c4c4;
+  margin-left: 15px;
+  margin-top: 18px;
+}
