@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import QrReader from 'react-qr-reader';
 import { FiChevronLeft } from "react-icons/fi";
+import { Redirect } from "react-router-dom";
 
 import "./styles.scss";
 
@@ -16,6 +17,12 @@ const QRCode: React.FC = () => {
   const handleError = (err: any) => {
     console.error(err)
   }
+
+  if (result !== "No result") {
+    return <Redirect to="payment_review" />
+  }
+
+
 
   return (
     <div className="qr-code">
