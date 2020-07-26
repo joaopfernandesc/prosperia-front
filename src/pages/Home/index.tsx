@@ -13,7 +13,7 @@ const Home: React.FC = () => {
         <header>
           <img src={icon} alt="Icon Prosperia" />
           <img src={logo} alt="Prosperia" />
-          <span>OPEN BANKING</span>
+          <div className="header__text">OPEN BANKING</div>
         </header>
 
         <main>
@@ -23,10 +23,13 @@ const Home: React.FC = () => {
             problemas relacionados à segurança online, com comodidade e
             agilidade
           </p>
-          <Link to="/dashboard">
+          <div className="filler">
+
+          </div>
+          <Link to="/dashboard" className="upperButton">
             <strong>Já tenho conta</strong>
           </Link>
-          <Link to="/dashboard">
+          <Link to="/dashboard" className="bottomButton">
             <strong>Comece por aqui</strong>
           </Link>
         </main>
